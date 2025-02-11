@@ -1,0 +1,64 @@
+/* Data Types
+    1. Object
+    2. Primitive Datatypes
+*/
+
+/* *********************************** *
+***        Primitive DataTypes       ***
+/* *********************************** */
+
+// Number (64 bit)
+
+let num = 10;
+console.log(typeof num);
+
+// String
+const firstName = "falak's book";
+const lastname = "Chandni";
+const nickName = `Tom`;
+
+console.log(typeof firstName);
+console.log(typeof lastname);
+console.log(typeof nickName);
+
+// Boolean
+let bool = false;
+console.log(typeof bool);
+
+// Undefined
+let a;
+console.log(typeof a);
+console.log(a);
+
+// Null
+let b = null;
+console.log(b);
+console.log(typeof b);
+
+// Symbol(ES6/2015)
+
+// BigInt(ES2020)
+let num1 = 10n;
+console.log(typeof num1);
+
+// Interesting Things
+
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
+console.log(Number.MAX_VALUE * 10);
+
+let num3 = Infinity;
+
+console.log(12 / 0);
+console.log(188 / num3);
+
+// wrapper objects
+console.log("Wrapper objects");
+let number = 10;
+let str = "String";
+let bigNum = "10n";
+let boolean = true;
+console.log(number.__proto__);
+console.log(str.__proto__);
+console.log(bigNum.__proto__);
+console.log(boolean.__proto__);
